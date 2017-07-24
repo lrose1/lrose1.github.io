@@ -405,15 +405,6 @@ hr {
 /* teaching section styles
 /* ========================================== */
 
-/* first photo */
-#home {
-  background: url('../images/oregon1.jpg') 50% 0 repeat-y fixed;
-  -webkit-background-size: cover;
-  background-size: cover;
-  background-position: center;
-  color: #ffffff;
-}
-
 #about {
   background: url('../images/sun-bg.jpg') 50% 0 repeat-y fixed;
   -webkit-background-size: cover;
