@@ -31,6 +31,7 @@ img {
 .home {
     max-width: 100%;
     min-width: 600px;
+    background-size:cover 
 }
 
 /* Typography
