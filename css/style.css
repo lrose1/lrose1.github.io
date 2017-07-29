@@ -406,11 +406,13 @@ hr {
 /* ========================================== */
 
 #about {
-  background: url('../images/sun-bg.jpg') 50% 0 repeat-y fixed;
+  background: url('../images/sun-bg.jpg') 50% 0 fixed;
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center;
   color: #ffffff;
+    transition: 0s linear;
+    transition-property: background-position;
 }
 #about h2 {
   padding-bottom: 20px;
