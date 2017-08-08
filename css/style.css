@@ -411,6 +411,7 @@ hr {
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   color: #ffffff;
     transition: 0s linear;
     transition-property: background-position;
