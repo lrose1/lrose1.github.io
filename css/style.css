@@ -903,3 +903,13 @@ footer h2 {
     font-size: 11px;
   }
 }
+
+/* Styling for subpages lists */
+ul.e {
+  width: 100%;
+  padding-top: 20px;
+  list-style-type: none;
+  margin-bottom: 25px;
+  font-size: 20px;
+  display: block;
+}
