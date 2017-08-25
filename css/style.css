@@ -327,7 +327,7 @@ hr {
   padding: 0 20px 20px 20px;
 }
 .slider-caption h2 {
-  font-size: 60px;
+  font-size: 66px;
   font-weight: 600;
   display: inline-block;
   margin-bottom: 24px;
@@ -407,11 +407,10 @@ hr {
 /* ========================================== */
 
 #about {
-  background: url('../images/sun-bg.jpg') 100% 0 fixed;
-  -webkit-background-size:  length_y;
+  background: url('../images/sun-bg.jpg') 50% 0 fixed;
+  -webkit-background-size:  cover;
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
   color: #ffffff;
     transition: 0s linear;
     transition-property: background-position;
