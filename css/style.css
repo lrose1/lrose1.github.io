@@ -71,7 +71,7 @@ h5.other {
 
 .heading {
   color: #000000;
-  font-size: 62px;
+  font-size: 50px;
 }
 
 p {
@@ -85,6 +85,13 @@ p.abstracts {
   color: #727272;
   letter-spacing: 0.9px;
   line-height: 15px;
+}
+
+p.abstracts1 {
+  font-size:90%;
+  color: #727272;
+  letter-spacing: 0.9px;
+  line-height: 20px;
 }
 
 a {
@@ -817,7 +824,7 @@ footer h2 {
     bottom: -40px;
   }
   .heading {
-    font-size: 62px;
+    font-size: 44px;
   }
   .custom-navbar .navbar-brand  {
 	  border: none;
@@ -891,13 +898,13 @@ footer h2 {
 
 @media (max-width: 440px) {
   .heading {
-    font-size: 37px;
+    font-size: 24px;
   }
 }
 
 @media (max-width: 320px) {
   .heading {
-    font-size: 32px;
+    font-size: 20px;
   }
   h5 {
     font-size: 11px;
