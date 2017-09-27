@@ -23,6 +23,10 @@ html,body {
      -moz-osx-font-smoothing: grayscale;
      vertical-align: baseline;
   }
+site-wrapper {
+    overflow: auto;
+    height: 100%
+}
 
 img {
   vertical-align: middle;
@@ -71,7 +75,7 @@ h5.other {
 
 .heading {
   color: #000000;
-  font-size: 50px;
+  font-size: 46px;
 }
 
 p {
