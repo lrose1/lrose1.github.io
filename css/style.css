@@ -45,6 +45,8 @@ h1,h2,h3,h4,h5 {
   font-weight: bold;
 }
 
+
+
 h3 {
   color: #525252;
   letter-spacing: 1px;
@@ -76,6 +78,10 @@ h5.other {
 .heading {
   color: #000000;
   font-size: 46px;
+}
+
+h2.heading2 {
+  font-size: 28px;
 }
 
 p {
@@ -455,8 +461,19 @@ hr {
   display: block;
 }
 
+#work .about-fact2 {
+  margin-bottom: 42px;
+  text-align: center;
+  position: relative;
+  display: block;
+}
+
 #about .border-right {
    border-right: 2px solid rgba(250,250,250,0.8);
+}
+
+#work .border-right2 {
+   border-right: 2px solid #000;
 }
 
 
@@ -831,6 +848,9 @@ footer h2 {
   .heading {
     font-size: 44px;
   }
+ .heading2 {
+    font-size: 28px;
+  }
   .custom-navbar .navbar-brand  {
 	  border: none;
 	  font-size: 18px;
@@ -905,6 +925,9 @@ footer h2 {
   .heading {
     font-size: 24px;
   }
+ h2.heading2 {
+    font-size: 18px;
+  }
 }
 
 @media (max-width: 320px) {
@@ -913,6 +936,9 @@ footer h2 {
   }
   h5 {
     font-size: 11px;
+  }
+ h2.heading2 {
+    font-size: 12px;
   }
 }
 
