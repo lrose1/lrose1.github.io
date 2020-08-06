@@ -75,6 +75,8 @@ h5.other {
   position: relative;
 }
 
+
+
 .heading {
   color: #000000;
   font-size: 46px;
@@ -94,6 +96,14 @@ p.abstracts {
   font-size:80%;
   color: #727272;
   letter-spacing: 0.9px;
+  line-height: 15px;
+}
+
+p.pubs {
+  font-size:90%;
+  color: #727272;
+  letter-spacing: 0.9px;
+    padding-left: 100px;
   line-height: 15px;
 }
 
