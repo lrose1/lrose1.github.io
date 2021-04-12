@@ -872,7 +872,8 @@ footer h2 {
 @media (max-width: 768px) {
 	
   .slider-caption {
-	  bottom: 30px;
+    bottom:1px;
+	
   }
   .slider-caption h2 {
 	font-size: 32px;
@@ -914,6 +915,13 @@ footer h2 {
   #contact .contact-detail {
     top: 40px;
   }
+  p.pubs {
+  font-size:90%;
+  color: #727272;
+  letter-spacing: 0.9px;
+    padding-left: 10px;
+  line-height: 15px;
+}
 }
 
 @media (max-width: 767px) {
@@ -948,10 +956,12 @@ footer h2 {
   }
   h5 {
     font-size: 11px;
+    
   }
  h2.heading2 {
     font-size: 12px;
   }
+  
 }
 
 /* Styling for subpages lists */
