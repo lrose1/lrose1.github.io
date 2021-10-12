@@ -881,14 +881,15 @@ footer h2 {
 @media (max-width: 768px) {
 	
   .slider-caption {
+    padding-top: 50px;
     bottom:1px;
 	
   }
   .slider-caption h2 {
-	font-size: 32px;
+	font-size: 24px;
   }
   .slider-caption p {
-	  font-size: 18px;
+	  font-size: 14px;
 	  line-height: 14px;
   }
   
@@ -900,7 +901,7 @@ footer h2 {
     padding-top: 32px;
   }
   #work .col-md-4 {
-    text-align: center;
+        padding-top: 22px;
   }
   #work .col-md-4 hr {
     margin-left: auto;
@@ -925,11 +926,11 @@ footer h2 {
     top: 40px;
   }
   p.pubs {
-  font-size:90%;
+  font-size:80%;
   color: #727272;
   letter-spacing: 0.9px;
     padding-left: 10px;
-  line-height: 15px;
+  line-height: 22px;
 }
 }
 
@@ -941,6 +942,9 @@ footer h2 {
     padding-right: 0;
     margin: 54px auto 54px auto;
     width: 360px;
+  }
+    #work  {
+        padding-top: 20px;
   }
 }
 
