@@ -34,8 +34,8 @@ img {
 
 .home {
     max-width: 100%;
-    min-width: 400px;
-    background-size:cover 
+    height: auto;
+    background-size:cover
 }
 
 /* Typography
@@ -181,6 +181,18 @@ hr {
   background-repeat:repeat-x;
 }
 
+/* Disable fixed-background parallax on phones & tablets.
+   iOS Safari and most mobile browsers ignore or break
+   `background-attachment: fixed`, causing jumpy/oversized
+   backgrounds. Fall back to normal scrolling backgrounds. */
+@media (max-width: 1024px) {
+  .parallax-section,
+  #work,
+  #about,
+  #plan {
+    background-attachment: scroll !important;
+  }
+}
 
 /* preloader styles
 /* ========================================== */
