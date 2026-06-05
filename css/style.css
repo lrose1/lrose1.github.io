@@ -523,10 +523,9 @@ hr {
 .team-wrapper img {
   display: block;
   width: 100%;
-  max-width: 260px;
-  height: 180px;
-  object-fit: cover;  /* crops to a uniform tile */
-  margin: 0 auto;
+  max-width: 260px;   /* the cap that keeps them from getting huge */
+  height: auto;
+  margin: 0 auto;     /* center, since the image is display:block */
 }
 
 #team .team-wrapper .team-des {
