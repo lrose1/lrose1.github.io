@@ -520,6 +520,15 @@ hr {
   font-weight: bold;
 }
 
+.team-wrapper img {
+  display: block;
+  width: 100%;
+  max-width: 260px;
+  height: 180px;
+  object-fit: cover;  /* crops to a uniform tile */
+  margin: 0 auto;
+}
+
 #team .team-wrapper .team-des {
   cursor: pointer;
   position: relative;
