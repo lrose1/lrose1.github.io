@@ -100,11 +100,11 @@ p.abstracts {
 }
 
 p.pubs {
-  font-size:90%;
+  font-size:18px;
   color: #727272;
   letter-spacing: 0.9px;
     padding-left: 100px;
-  line-height: 18px;
+  line-height: 22px;
 }
 
 p.abstracts1 {
